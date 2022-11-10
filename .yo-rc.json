@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "flujo-viajes",
+    "libraryId": "a46f558e-7cc9-47b3-ae70-160b64dc7c03",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "FlujoViajes",
+    "solutionShortDescription": "FlujoViajes description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

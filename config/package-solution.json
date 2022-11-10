@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "flujo-viajes-client-side-solution",
+    "id": "a46f558e-7cc9-47b3-ae70-160b64dc7c03",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "FlujoViajes description"
+      },
+      "longDescription": {
+        "default": "FlujoViajes description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "flujo-viajes Feature",
+        "description": "The feature that activates elements of the flujo-viajes solution.",
+        "id": "fb1601f7-9ab1-473b-9e83-65adbebf9bed",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/flujo-viajes.sppkg"
+  },
+  "webApiPermissionRequests": [
+    {
+      "resource": "Microsoft Graph",
+      "scope": "Mail.Read"
+    }
+  ]
+}

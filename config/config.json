@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "flujo-viajes-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/flujoViajes/FlujoViajesWebPart.js",
+          "manifest": "./src/webparts/flujoViajes/FlujoViajesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FlujoViajesWebPartStrings": "lib/webparts/flujoViajes/loc/{locale}.js"
+  }
+}
